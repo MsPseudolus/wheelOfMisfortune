@@ -9,8 +9,6 @@
 
 
 <script type="text/javascript">
-		
-		
 
 var word = "";
 var letters;
@@ -46,7 +44,7 @@ function checkLetterGuess()
 		var wordChar = "";
 		letterGuess = document.getElementById("userLetter");//get user's entry
 		letter = letterGuess.value;
-		divOutput = document.getElementById("test");
+		//divOutput = document.getElementById("test");
 		wordReveal = document.getElementById("mysteryWord")
 		
 		wordArray = wordX.split(""); //turn into an array
@@ -63,7 +61,7 @@ function checkLetterGuess()
 			
 			}
 	
-	document.letterGuess.reset();
+	document.letterGuess.reset();   //clear form
 			
 }
 			
@@ -87,7 +85,9 @@ function checkLetterGuess()
         <ul class="nav" id="main-menu-left">
           <li><a onclick="pageTracker._link(this.href); return false;" href="http://www.linkedin.com/in/kirstenlambertsen/"  target="_blank">LinkedIn</a></li>
           <li><a id="swatch-link" href="http://about.me/kirsten.lambertsen" target="_blank">About.me</a></li>
-          <li><a id="swatch-link" href="../#gallery">Github</a></li>
+          <li><a id="swatch-link" href="https://github.com/MsPseudolus" target="_blank">Github</a></li>
+          <li><a id="swatch-link" href="http://twitter.com/MsPseudolus" target="_blank">Twitter</a></li>
+          <li><a id="swatch-link" href="http://foundersleague.co/blog/meet-kirsten-lambertsen" target="_blank">Founders League</a></li>
           
         </ul>
         <ul class="nav pull-right" id="main-menu-right">
